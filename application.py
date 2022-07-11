@@ -66,7 +66,6 @@ def getData():
         return redirect('/')
     sp = spotipy.Spotify(auth=session.get('token_info').get('access_token'))
 
-
     with open('data.json', 'w', encoding='utf-8') as f: json.dump(sp.current_user_top_tracks(limit=20, offset=0, time_range='long_term'), f, ensure_ascii=False, indent=4)
 
     f = open('data.json')
