@@ -8,7 +8,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Configure application
-app = Flask(__name__)
+application = Flask(__name__)
+
+app = application
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
