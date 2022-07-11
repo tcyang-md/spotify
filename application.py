@@ -56,16 +56,83 @@ def redirectPage():
     code = request.args.get('code')
     token_info = sp_oauth.get_access_token(code)
     session[TOKEN_INFO] = token_info
-    return redirect(url_for('getResults', _external=True))
+    return redirect(url_for('getData', _external=True))
 
-@app.route('/getResults')
-def getResults():
+@app.route('/getData')
+def getData():
     session['token_info'], authorized = get_token()
     session.modified = True
     if not authorized:
         return redirect('/')
     sp = spotipy.Spotify(auth=session.get('token_info').get('access_token'))
-    return "done"
+
+
+    with open('data.json', 'w', encoding='utf-8') as f: json.dump(sp.current_user_top_tracks(limit=20, offset=0, time_range='long_term'), f, ensure_ascii=False, indent=4)
+
+    f = open('data.json')
+    data = json.load(f)
+
+    avg_features = {
+        'danceability' : 0,
+        'energy' : 0,
+        'loudness' : 0,
+        'speechiness' : 0,
+        'acousticness' : 0,
+        'instrumentalness' : 0,
+        'valence' : 0,
+        'tempo' : 0
+    }
+
+    # takes dictionary of song attributes, keeps the ones we are looking for as listed in avg_features
+    for song in data['items']:
+        SongFeats = sp.audio_features(tracks=song['uri'])[0]
+        for attribute in SongFeats:
+            if attribute in avg_features:
+                avg_features[attribute] = avg_features[attribute] + SongFeats.get(attribute)
+
+    for key in avg_features:
+        avg_features[key] = avg_features[key] / len(data['items'])
+
+    f.close()
+
+
+    with open('data.json', 'w', encoding='utf-8') as f: json.dump(sp.current_user_playlists(limit=50, offset=0), f, ensure_ascii=False, indent=4)
+
+    f = open('data.json')
+    data = json.load(f)
+
+    number_playlists = len(data['items'])
+    f.close()
+
+
+    # evaluate personality
+    personality = ""
+
+    # extroversion
+    if avg_features['danceability'] >= 0.50 and avg_features['instrumentalness'] < 0.5 and (avg_features['loudness'] <= -4 and avg_features['loudness'] >= -10) and (avg_features['tempo'] >= 80 and avg_features['tempo'] <= 140):
+        personality += "E"
+    else:
+        personality += "I"
+
+    # World and Process information
+    if avg_features["speechiness"] >= 0.1:
+        personality += "N"
+    else:
+        personality += "S"
+
+    # Decision and Emotional coping
+    if avg_features["valence"] <= 0.35 and avg_features["acousticness"] >= 0.70 and avg_features["energy"] < 0.50 and avg_features["danceability"] <= 0.50:
+        personality += "F"
+    else:
+        personality += "T"
+
+    # Work, planning, decision-making
+    if number_playlists >= 35:
+        personality += "J"
+    else:
+        personality += "P"
+
+    return personality
 
 
 # helper methods

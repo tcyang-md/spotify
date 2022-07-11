@@ -6,7 +6,9 @@ import string
 import time
 import json
 
-app = Flask(__name__)
+application = Flask(__name__)
+
+app = application
 
 app.secret_key = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10))
 app.config['MY_SESSION'] = 'this session'
