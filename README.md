@@ -1,4 +1,5 @@
 # spotify
+link: http://spotify-env.eba-yiivtcr7.us-east-1.elasticbeanstalk.com/
 
 ## How did I connect this to Elastic Beanstalk AWS
 ### vscode -> github
