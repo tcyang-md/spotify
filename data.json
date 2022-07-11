@@ -1,0 +1,508 @@
+{
+    "href": "https://api.spotify.com/v1/users/mr.dumpling/playlists?offset=0&limit=50",
+    "items": [
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/51esnuJuqglwCTGSMcvCOI"
+            },
+            "href": "https://api.spotify.com/v1/playlists/51esnuJuqglwCTGSMcvCOI",
+            "id": "51esnuJuqglwCTGSMcvCOI",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706c0000bebb11c80ce26d34bbd09ea1472e",
+                    "width": null
+                }
+            ],
+            "name": "My Supergroup Mix",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MyxkMzU2OWQwNzZlNTJiYTdjYWVmZThkNGYzMWMzNGJmNWM3YWI5MjU4",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/51esnuJuqglwCTGSMcvCOI/tracks",
+                "total": 30
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:51esnuJuqglwCTGSMcvCOI"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/220pdW6nsLTU8u95XauoGO"
+            },
+            "href": "https://api.spotify.com/v1/playlists/220pdW6nsLTU8u95XauoGO",
+            "id": "220pdW6nsLTU8u95XauoGO",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b27309817b2199d8e27189f60600",
+                    "width": 640
+                }
+            ],
+            "name": "Relax",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MyxhZjEyOTAxNGE3ZTQyOGVjODFkYTE1NjdiMTAwZWMxNWY4YjI0MTQ0",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/220pdW6nsLTU8u95XauoGO/tracks",
+                "total": 2
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:220pdW6nsLTU8u95XauoGO"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/0weaKHmNsydCf6Ya1OsmsQ"
+            },
+            "href": "https://api.spotify.com/v1/playlists/0weaKHmNsydCf6Ya1OsmsQ",
+            "id": "0weaKHmNsydCf6Ya1OsmsQ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/ab67616d0000b2730ed2184bf3fb4466d623a874ab67616d0000b27325dd1a3969c0912291b6fc7bab67616d0000b2737bc333ff94bcb174a817e346ab67616d0000b273fa45c10481b5006d7ab68566",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/ab67616d0000b2730ed2184bf3fb4466d623a874ab67616d0000b27325dd1a3969c0912291b6fc7bab67616d0000b2737bc333ff94bcb174a817e346ab67616d0000b273fa45c10481b5006d7ab68566",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/ab67616d0000b2730ed2184bf3fb4466d623a874ab67616d0000b27325dd1a3969c0912291b6fc7bab67616d0000b2737bc333ff94bcb174a817e346ab67616d0000b273fa45c10481b5006d7ab68566",
+                    "width": 60
+                }
+            ],
+            "name": "Road Trip",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MzYsYzQzMzRkMjc2NTEwNGQzNmFmNDNiNDVkMjhiNGMwZjU1YjA1NWUzYg==",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/0weaKHmNsydCf6Ya1OsmsQ/tracks",
+                "total": 33
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:0weaKHmNsydCf6Ya1OsmsQ"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/1AQgju0HB1TtsUsSTKprVU"
+            },
+            "href": "https://api.spotify.com/v1/playlists/1AQgju0HB1TtsUsSTKprVU",
+            "id": "1AQgju0HB1TtsUsSTKprVU",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732e617c3e5ef4e889437cbb7d",
+                    "width": 640
+                }
+            ],
+            "name": "Fuck im late",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "NSxlZGY3MmI3ZTIwMzMwNGVhZTM1ODQ2MWFkZTU4MTNjZGVmNGFjOTc3",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/1AQgju0HB1TtsUsSTKprVU/tracks",
+                "total": 3
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:1AQgju0HB1TtsUsSTKprVU"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/6EthHEhq7hF9HLFw9AALgi"
+            },
+            "href": "https://api.spotify.com/v1/playlists/6EthHEhq7hF9HLFw9AALgi",
+            "id": "6EthHEhq7hF9HLFw9AALgi",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+                    "width": 640
+                }
+            ],
+            "name": "New age",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "OSw3N2I0ZDkzNDE5NWVhNjBlM2Y5Mjc5ZDgwY2UwNjMzNGM3ZmZlYjkx",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/6EthHEhq7hF9HLFw9AALgi/tracks",
+                "total": 8
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:6EthHEhq7hF9HLFw9AALgi"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/2ly0zTAgeiB4QOe8G8bwWb"
+            },
+            "href": "https://api.spotify.com/v1/playlists/2ly0zTAgeiB4QOe8G8bwWb",
+            "id": "2ly0zTAgeiB4QOe8G8bwWb",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/ab67616d0000b2736a45d20e414fbc456ecea553ab67616d0000b2736aef62bd0a60aac7df9a9e37ab67616d0000b273b9ff0a5f40d3406aed5e5e3bab67616d0000b273e207a14471e5356294146e9d",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/ab67616d0000b2736a45d20e414fbc456ecea553ab67616d0000b2736aef62bd0a60aac7df9a9e37ab67616d0000b273b9ff0a5f40d3406aed5e5e3bab67616d0000b273e207a14471e5356294146e9d",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/ab67616d0000b2736a45d20e414fbc456ecea553ab67616d0000b2736aef62bd0a60aac7df9a9e37ab67616d0000b273b9ff0a5f40d3406aed5e5e3bab67616d0000b273e207a14471e5356294146e9d",
+                    "width": 60
+                }
+            ],
+            "name": "2000s",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "ODcsZjM3Yzk2MTc3YWY2YjlkYzI3MDk5OGY4NjBkOWY3MjFlN2FlY2I0Yw==",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/2ly0zTAgeiB4QOe8G8bwWb/tracks",
+                "total": 86
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:2ly0zTAgeiB4QOe8G8bwWb"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/21qQeS8UyzJk1SCrMsKZ6r"
+            },
+            "href": "https://api.spotify.com/v1/playlists/21qQeS8UyzJk1SCrMsKZ6r",
+            "id": "21qQeS8UyzJk1SCrMsKZ6r",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/ab67616d0000b2734dd033f4cf3a0a58059cde69ab67616d0000b273812afa11cb6c2bc0c3db30cbab67616d0000b2738a9c1b058c215b14983e0725ab67616d0000b273b7879980ef2ea7ac1cc29316",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/ab67616d0000b2734dd033f4cf3a0a58059cde69ab67616d0000b273812afa11cb6c2bc0c3db30cbab67616d0000b2738a9c1b058c215b14983e0725ab67616d0000b273b7879980ef2ea7ac1cc29316",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/ab67616d0000b2734dd033f4cf3a0a58059cde69ab67616d0000b273812afa11cb6c2bc0c3db30cbab67616d0000b2738a9c1b058c215b14983e0725ab67616d0000b273b7879980ef2ea7ac1cc29316",
+                    "width": 60
+                }
+            ],
+            "name": "Boomer bangers",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "OCxkYjJiNDNlNTg2YzNkYzEwZWNjZGExZjAxZThjMzAxOWZlMjdhNWU0",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/21qQeS8UyzJk1SCrMsKZ6r/tracks",
+                "total": 6
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:21qQeS8UyzJk1SCrMsKZ6r"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/7kJ2rHMfwcJJIgcHj9nr6Y"
+            },
+            "href": "https://api.spotify.com/v1/playlists/7kJ2rHMfwcJJIgcHj9nr6Y",
+            "id": "7kJ2rHMfwcJJIgcHj9nr6Y",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706c0000bebbdb1bc96fe88e9b60a135d531",
+                    "width": null
+                }
+            ],
+            "name": "gentle head bobbing in the sun",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MzMsNjA0MmRlOGJmNDEyNTFjNDE4YzBhZjdiNTNmMDQzZDU5NmQzYTZkMg==",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/7kJ2rHMfwcJJIgcHj9nr6Y/tracks",
+                "total": 17
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:7kJ2rHMfwcJJIgcHj9nr6Y"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/3GQSHPvbiGW7Yw3bO10e4l"
+            },
+            "href": "https://api.spotify.com/v1/playlists/3GQSHPvbiGW7Yw3bO10e4l",
+            "id": "3GQSHPvbiGW7Yw3bO10e4l",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706c0000bebb19cf210be5cec30d73a64640",
+                    "width": null
+                }
+            ],
+            "name": "Kalm",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "OSw3NGMzOWZmZmFkNmI0N2RlZGU4MjdkMzFmYjYwYTBiODZmOTY5NGM5",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/3GQSHPvbiGW7Yw3bO10e4l/tracks",
+                "total": 85
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:3GQSHPvbiGW7Yw3bO10e4l"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/7rRExvaZR7kBuVZWi1dfkO"
+            },
+            "href": "https://api.spotify.com/v1/playlists/7rRExvaZR7kBuVZWi1dfkO",
+            "id": "7rRExvaZR7kBuVZWi1dfkO",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706c0000bebbd0e01d96c8ee1a9f05c515e0",
+                    "width": null
+                }
+            ],
+            "name": "Daddy Hogan Set Me Free",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MTg5LGRmMmM4YmY2MjZhYWQ4MmQ4Y2I0NzQ5MWVkZWM4NjBhODk3OTI1NjI=",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/7rRExvaZR7kBuVZWi1dfkO/tracks",
+                "total": 44
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:7rRExvaZR7kBuVZWi1dfkO"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/0UI2791eG4NLuaSGgGJ7dA"
+            },
+            "href": "https://api.spotify.com/v1/playlists/0UI2791eG4NLuaSGgGJ7dA",
+            "id": "0UI2791eG4NLuaSGgGJ7dA",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706c0000bebb4f6176867fb53009259fb8a3",
+                    "width": null
+                }
+            ],
+            "name": "shrek in the swamp karaoke dance party pt 2",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MTU5LDhiNmJmYWY2YjdhNzYxZmY1MjNlODk2M2QyZTFhNTQwZGExMTJlYmI=",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/0UI2791eG4NLuaSGgGJ7dA/tracks",
+                "total": 52
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:0UI2791eG4NLuaSGgGJ7dA"
+        },
+        {
+            "collaborative": false,
+            "description": "",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/5k6XrpFAS55qa6x6BWqyEM"
+            },
+            "href": "https://api.spotify.com/v1/playlists/5k6XrpFAS55qa6x6BWqyEM",
+            "id": "5k6XrpFAS55qa6x6BWqyEM",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706c0000bebb997fc613cbbeab362d68aadd",
+                    "width": null
+                }
+            ],
+            "name": ":(",
+            "owner": {
+                "display_name": "Chris Yang",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/mr.dumpling"
+                },
+                "href": "https://api.spotify.com/v1/users/mr.dumpling",
+                "id": "mr.dumpling",
+                "type": "user",
+                "uri": "spotify:user:mr.dumpling"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MTE1LDdkNWIyNjk4MDA0ZGY5NWI0MWM4OTQwYWU3ZTMzMzJkMjcxNTQwYjk=",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/5k6XrpFAS55qa6x6BWqyEM/tracks",
+                "total": 97
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:5k6XrpFAS55qa6x6BWqyEM"
+        },
+        {
+            "collaborative": false,
+            "description": "Harry Styles is on top of the Hottest 50!",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+            },
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M",
+            "id": "37i9dQZF1DXcBWIGoYBM5M",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000003f2f4d7f2aa4d4493c85db0ae",
+                    "width": null
+                }
+            ],
+            "name": "Today's Top Hits",
+            "owner": {
+                "display_name": "Spotify",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotify"
+                },
+                "href": "https://api.spotify.com/v1/users/spotify",
+                "id": "spotify",
+                "type": "user",
+                "uri": "spotify:user:spotify"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MTY1NzI1MjgwMCwwMDAwMDU1MjAwMDAwMTgxZGJmNmU3MTMwMDAwMDE4MWRiMjk3YTcx",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M/tracks",
+                "total": 50
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:37i9dQZF1DXcBWIGoYBM5M"
+        }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 13
+}

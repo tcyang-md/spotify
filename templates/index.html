@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Welcome
+{% endblock %}
+
+{% block main %}
+    <p>Click this button to log in to Spotify</p>
+    <form action="/login" method="post">
+        <button class="btn btn-primary" type="submit">Log In</button>
+    </form>
+{% endblock %}
